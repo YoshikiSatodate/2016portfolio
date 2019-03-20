@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="里館佳樹,ポートフォリオ,">
+
+    <title>Date's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/doctorreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/work.css">
+    <script src="../js/smooth-scroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var back = $('#back')
+            back_offset = back.offset();
+            back_height = back.height();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 730) {
+                    back.addClass('scroll');
+                } else {
+                    back.removeClass('scroll');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html#works">
+                <div id="back"></div>
+            </a>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <img class="heroimage" src="../img/work/work1_2.png">
+    <div class="wrap">
+        <p class="section">1.作品紹介</p>
+        <div class="clear"></div>
+        <img src="../img/work/work1/1.png">
+        <p class="para">万華鏡に閉じ込められたような体験をすることができるインスタレーション。
+            <br>Processingによりwebカメラから入る情報をリアルタイムで万華鏡の模様になるよう処理する。
+        </p>
+        <p class="section">2.詳細</p>
+        <div class="clear"></div>
+        <img src="../img/work/work1/2.png">
+        <p class="para">webカメラで検出した画像を特定の位置で三角形にマスクする。
+        </p>
+        <img src="../img/work/work1/3.png">
+        <p class="para">三角形全ての同じ頂点が隣接するようにマッピングを行う。
+            <br> これらをリアルタイムで処理し、描写することで万華鏡の模様を表現している。
+        </p>
+        <p class="section">3.制作情報</p>
+        <div class="clear"></div>
+        <div class="info">
+            <ul>
+                <li>
+                    <p class="info_title">使用ソフト</p>
+                    <div class="info_child">
+                    <img class="skill" src="../img/work/work1/4.png">
+                    <img class="skill" src="../img/work/work1/5.png">
+                    </div>
+                </li>
+                <li>
+                    <p class="info_title">規模</p>
+                    <div class="info_child">
+                    <p><a href="http://fundesign.jp/pbl/project16/">学内活動</a>での個人制作</p>
+                    </div>
+                </li>
+                <li>
+                    <p class="info_title">期間</p>
+                    <div class="info_child">
+                    <p>2016年6月 - 7月</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    <a href="#" class="updown" data-scroll><img src="../img/up.png"></a>
+    </div>
+
+    <footer>
+        <p>©︎Copyright 2016 Yoshiki Satodate</p>
+    </footer>
+</body>
+<script>
+    // スムーススクロールを起動する
+    smoothScroll.init({
+        speed: 1000,
+        updateURL: false,
+    });
+</script>
+
+</html>

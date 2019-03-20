@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="里館佳樹,ポートフォリオ,">
+
+    <title>Date's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/doctorreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/work.css">
+    <script src="../js/smooth-scroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var back = $('#back')
+            back_offset = back.offset();
+            back_height = back.height();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 730) {
+                    back.addClass('scroll');
+                } else {
+                    back.removeClass('scroll');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html#works">
+                <div id="back"></div>
+            </a>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <img class="heroimage" src="../img/work/work2_2.png">
+    <div class="wrap">
+        <p class="section">1.作品紹介</p>
+        <div class="clear"></div>
+        <img src="../img/work/work2/deepic1.png">
+        <p class="para">旅行の記念や食事、メモなどたくさんのシーンで使うことがあるカメラアプリ。
+            <br>深層学習を取り入れたDeepicは、質の高い記憶の再生を可能にした。
+        </p>
+        <p class="section">2.詳細</p>
+        <div class="clear"></div>
+        <img src="../img/work/work2/deepic2.png">
+        <p class="para">撮影した写真は高精度の画像認識によって、写り込んだオブジェクトを検知。
+            <br>また、それらに関わる様々な情報を、キュレーションサイトなどから引用して表示する。
+        </p>
+        <img src="../img/work/work2/deepic4.png">
+        <p class="para">日常、旅行先、メモ、様々なシーンでこの機能を活用することができる。
+            <br>写真を見返す時に付加情報があるため、より高質に思い出すことができるだけではなく、
+            <br>会議やノートのメモであれば、次に活かすことができる有益な情報も得ることが可能だ。
+        </p>
+        <img src="../img/work/work2/deepic6.png">
+        <p class="para">撮影を繰り返していくと、情報と紐づいたフォトアルバムが出来上がる。
+            <br>これまでのように情報が整理され、並んでいるだけのものではなく、
+            <br>写真に関連する記事がついた読み物"マガジン風フォトビューアー"として活躍する。
+        </p>
+        <img src="../img/work/work2/deepic3.png">
+        <p class="para">また、「金曜日の昼はいつもラーメンを撮影している」という風に学習すると、
+            <br>Deepicは金曜日のお昼時になると最寄のラーメン屋さんをピックアップしてくれるようになる。
+            <br>過去を記録していただけの写真が、未来の行動を提案してくれるようになるのだ。
+        </p>
+        <p class="section">3.制作情報</p>
+        <div class="clear"></div>
+        <div class="info">
+            <ul>
+                <li>
+                    <p class="info_title">使用ソフト</p>
+                    <div class="info_child">
+                        <img class="skill" src="../img/work/work2/3.png">
+                    </div>
+                </li>
+                <li>
+                    <p class="info_title">規模</p>
+                    <div class="info_child">
+                        <p>インターンシップ個人制作</p>
+                    </div>
+                </li>
+                <li>
+                    <p class="info_title">期間</p>
+                    <div class="info_child">
+                        <p>2016年8月 3週間</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="updown" data-scroll><img src="../img/up.png"></a>
+    </div>
+
+    <footer>
+        <p>©︎Copyright 2016 Yoshiki Satodate</p>
+    </footer>
+</body>
+<script>
+    // スムーススクロールを起動する
+    smoothScroll.init({
+        speed: 1000,
+        updateURL: false,
+    });
+</script>
+
+</html>

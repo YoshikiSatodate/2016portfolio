@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="里館佳樹,ポートフォリオ,">
+
+    <title>Date's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/doctorreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/work.css">
+    <script src="../js/smooth-scroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var back = $('#back')
+            back_offset = back.offset();
+            back_height = back.height();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 0) {
+                    back.addClass('scroll');
+                } else {
+                    back.removeClass('scroll');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html#works">
+                <div id="back"></div>
+            </a>
+        </nav>
+            <div class="clear"></div>
+    </header>
+    <div class="wrap">
+        <img class="paper" src="../img/work/other/poster.png">
+        <p class="para">某焼肉店の新店舗オープンに向けたポスターを制作した。
+            <br>ここではPhotoshopを利用した文字の加工技術を学んだ。
+        </p>
+        <img src="../img/work/other/logo1_tomei.png">
+        <img src="../img/work/other/logo2_tomei.png">
+        <img src="../img/work/other/logo3_tomei.png">
+        <p class="para">フラッシュモブイベントのフライヤーに使用するロゴを制作した。
+            <br>ここではIllustratorを利用した文字の加工技術を学んだ。
+        </p>
+        <img src="../img/work/other/6sensorimg.jpg">
+        <img src="../img/work/other/6sensoricon.png">
+        <p class="para">タンジブルコンテンツの制作を行った。
+            <br>6sensorと呼ばれるこのデザイン案は、視線という人間の第六感を肌で感じることができるものである。
+            <br>会議で注目を浴びているチャンスに気づく、街中の視線で服にゴミが付いていることに気づくといったシーンを想定している。
+        </p>
+        <img src="../img/work/other/aroundtable.png">
+        <img src="../img/work/other/aroundtable2.png">
+        <p class="para">学生と農家を同じ食卓に集めるマッチングアプリを提案した。
+            <br>函館の食の価値を考える課題で、地産地消率の向上を目指し、Around tableというアプリを提案した。
+            <br>美味しいお米や野菜の情報を発信したがっている農家、お金はないけど美味しいものを食べたい学生を結ぶ。
+        </p>
+        <img src="../img/work/other/new_age.png">
+        <img src="../img/work/other/ellipse.png">
+        <img src="../img/work/other/Tver2.png">
+        <p class="para">空手スクールのTシャツデザインに伴って、イメージロゴとテキストロゴのデザインをおこなった。
+            <br>"空手っぽくない感じ"を求められていたため、幾何学的な要素を取り入れたロゴに仕上げた。
+            <br>たくさんの人に支えられて空手をしているという意味を込めたイメージロゴ。
+        </p>
+        <img class="paper" src="../img/work/other/manual.png">
+        <p class="para">軽音サークル内の機材セッティング方法を図解し、マニュアルを作成した。
+            <br>配線などが難しいため、技術者がいなければライブを設営できない状況を改善すべく制作した。
+        </p>
+        <img class="paper" src="../img/work/other/ainu.png">
+        <p class="para">アイヌ民族に関する情報をインフォグラフィックスにしたものである。
+            <br>情報を可視化することの難しさを知った。
+        </p>
+        <img src="../img/work/other/lump.JPG">
+        <p class="para">物足りない部屋の雰囲気を変化させるランプシェードを制作した。
+            <br>幾何学なフォルムと非日常的なライトにより、一風変わった空間を演出する。
+            <br>Arduinoの導入により、手をかざすと赤、青、紫と色が変化する機能もある。
+        </p>
+        <a href="#" class="updown" data-scroll><img src="../img/up.png"></a>
+    </div>
+
+    <footer>
+        <p>©︎Copyright 2016 Yoshiki Satodate</p>
+    </footer>
+</body>
+<script>
+    // スムーススクロールを起動する
+    smoothScroll.init({
+        speed: 1000,
+        updateURL: false,
+    });
+</script>
+
+</html>

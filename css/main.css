@@ -1,0 +1,212 @@
+.logo {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.mycate {
+    margin-top: 16px;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+header {
+    padding: 56px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 360px;
+    /* ナビ幅　*/
+}
+
+nav li {
+    float: left;
+    width: 120px;
+    /* ナビ幅/個数 */
+}
+
+nav a {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.topimg {
+    margin-top: 56px;
+    width: 100%;
+    height: auto;
+}
+
+.wrap {
+    text-align: center;
+}
+
+#works {
+    margin-bottom: 140px;
+    padding-top: 40px;
+    font-size: 32px;
+    opacity: 0.7;
+}
+
+.contents {
+    height: auto;
+    width: 33.3%;
+    min-width: 400px;
+    
+    float: left;
+}
+
+.con_wrap{
+    display: inline-block;
+}
+
+.con_hover {
+    opacity: 0;
+    transition: 0.5s;
+    height: 260px;
+    width: 100%;
+}
+
+.con_hover:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.textbox {
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    width: 80%;
+    height: 180px;
+    border: thin solid white;
+    background-color: white;
+    color: black;
+}
+
+.con_title {
+    margin-top: 48px;
+    font-size: 22px;
+}
+
+.con_soft {
+    margin-top: 48px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+/*-----contents------*/
+
+#con1 {
+    background-image: url(../img/work/hero.png);
+    background-size: cover;
+}
+
+#con2 {
+    background-image: url(../img/work/work2.png);
+    background-size: cover;
+}
+
+#con3 {
+    background-image: url(../img/work/work3.png);
+    background-size: cover;
+}
+
+#con4 {
+    background-image: url(../img/work/work4.png);
+    background-size: cover;
+}
+
+#con5 {
+    background-image: url(../img/work/work5.png);
+    background-size: cover;
+}
+
+#con6 {
+    background-image: url(../img/work/work7.png);
+    background-size: cover;
+}
+
+
+/*-----contents------*/
+
+.more {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.more:hover {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+#about {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 180px;
+    font-size: 32px;
+    opacity: 0.7;
+}
+
+.about_wrap {
+    display: inline-block;
+    width: 80%;
+}
+
+.about_box {
+    width: 50%;
+    min-width: 400px;
+    height: 520px;
+    float: left;
+}
+
+.about_box img {
+    width: 330px;
+    height: 330px;
+    margin-left: 120px;
+    border-radius: 330px;
+}
+
+.myname {
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+.about_txt {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 480px;
+    height: 400px;
+}
+
+.about_txt p {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-right: 160px;
+    margin-bottom: 40px;
+    float: right;
+}

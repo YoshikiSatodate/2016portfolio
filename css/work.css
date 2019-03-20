@@ -1,0 +1,156 @@
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+nav {
+    float: left;
+    padding: 20px;
+}
+
+#back:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#back {
+    background-image: url(../img/backwhite.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    transition: 0.5;
+}
+
+#back.scroll {
+    background-image: url(../img/backblack.png);
+    transition: 0.5;
+}
+
+.title{
+    margin-top: 230px;
+    margin-left: 40px;
+    font-size: 60px;
+    color: white;
+}
+
+.heroimage {
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    margin-right: 160px;
+    margin-bottom: 20px;
+    float: right;
+}
+/*
+.wrap {
+    text-align: center;
+}
+
+.wrap h1{
+    margin: 40px;
+    font-size: 40px;
+}
+
+.wrap p{
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 880px;
+}
+
+.wrap a:hover{
+    transition: 0.5;
+    opacity: 0.2;
+}
+*/
+
+.wrap{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 960px;
+}
+
+.wrap img{
+    display: inline-block;
+    max-width: 800px;
+    max-height: 560px;
+    margin-top: 80px;
+}
+
+p{
+    opacity: 0.7;
+}
+
+p.section{
+    font-size: 24px;
+    float: left;
+    margin-top: 80px;
+}
+
+
+p.para{
+    margin-top: 40px;
+}
+
+a.link{
+    line-height: 80px;
+    font-size: 24px;
+}
+
+a.link p:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+div.info{
+    display: inline-block;
+    width: 800px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.info ul {
+    margin: 0 auto;
+    width: 720px;
+    /* ナビ幅　*/
+}
+
+.info li {
+    float: left;
+    width: 240px;
+    /* ナビ幅/個数 */
+}
+
+.info li>p img{
+    margin-left: 20px;
+}
+
+p.info_title{
+}
+
+div.info_child{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.info_child p{
+    line-height: 60px;
+}
+
+div.info_child a:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+    
+img.skill{
+    width: 60px;
+    margin-top: 0px;
+}
+
+img.paper{
+    box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8); /*横方向　下方向　ぼかし　広がり　色 */
+}

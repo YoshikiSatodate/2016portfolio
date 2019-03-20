@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="里館佳樹,ポートフォリオ,">
+
+    <title>Date's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/doctorreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/work.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var back = $('#back')
+            back_offset = back.offset();
+            back_height = back.height();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 730) {
+                    back.addClass('scroll');
+                } else {
+                    back.removeClass('scroll');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html#works">
+                <div id="back"></div>
+            </a>
+        </nav>
+            <div class="clear"></div>
+    </header>
+
+    <img class="heroimage" src="../img/work/work6_03.png">
+    <img class="heroimage" src="../img/work/work4_03.png">
+    <div class="wrap">
+        <h1>展覧会ウェブサイト</h1>
+        <p>未来大学デザインコース２年前後期それぞれで行ったデザイン課題の発表会のために制作したウェブサイト。<br>
+    多くの作品を紹介するためのページであるため、各グループが紹介したい情報を記載できる拡張性を意識した。<br>
+    またこれらは前期と後期で２つのウェブサイトを制作した。</p>
+    </div>
+
+    <footer>
+        <p>©︎Copyright 2016 Yoshiki Satodate</p>
+    </footer>
+</body>
+<script>
+    // スムーススクロールを起動する
+    smoothScroll.init({
+        speed: 1000,
+        updateURL: false,
+    });
+</script>
+
+</html>

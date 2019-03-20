@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="里館佳樹,ポートフォリオ,">
+
+    <title>Date's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/doctorreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/work.css">
+    <script src="../js/smooth-scroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var back = $('#back')
+            back_offset = back.offset();
+            back_height = back.height();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 730) {
+                    back.addClass('scroll');
+                } else {
+                    back.removeClass('scroll');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html#works">
+                <div id="back"></div>
+            </a>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <!-- <img class="heroimage" src="../img/work/work3_2.png">
+    <div class="wrap">
+        <h1>Kakecom</h1>
+        <p>公立はこだて未来大学新入生をターゲットに、不動産などの情報をまとめたウェブサイト。<br>
+    無駄な情報をそぎ落とし、写真を使って物件を紹介することで目を引くデザインを意識した。</p>
+    <a href="http://kakecom.com" target="_blank"><p>Kakecomに駆け込む</p></a>
+    </div> -->
+    <img class="heroimage" src="../img/work/work3_2.png">
+    <div class="wrap">
+        <p class="section">1.作品紹介</p>
+        <div class="clear"></div>
+        <img src="../img/work/work3/kakecom1.png">
+        <p class="para">私が在学する公立はこだて未来大学の新入生の利用に特化した不動産情報サイト。
+            <br>現役未来大生から見た、オススメの商業施設や一人暮らし部屋特集なども掲載している。
+        </p>
+        <a class="link" href="http://kakecom.com/"><p>Kakecomに駆け込む</p></a>
+        <p class="section">2.詳細</p>
+        <div class="clear"></div>
+        <img src="../img/work/work3/kakecom2.png">
+        <p class="para">トップページにアクセスすると特徴的な本学の写真とHouse Informationのタイトル。
+            <br>"Kakecomがどのようなサイトなのか"が一目でわかるようになっている。
+        </p>
+        <img src="../img/work/work3/kakecom3.png">
+        <p class="para">ユーザが行うであろう主要の機能3つをアイコンで大きく表示。
+            <br>ユーザビリティを意識したインターフェースである。
+        </p>
+        <img src="../img/work/work3/kakecom4.png">
+        <p class="para">数ある物件をそれぞれヒーローイメージのみで魅せている。
+            <br>カーソルを合わせると表示させるのは「間取り・賃料・紹介文」のみ。
+            <br>学生が意識して確認する情報のみをピックアップした大胆なデザイン。
+        </p>
+        <p class="section">3.制作情報</p>
+        <div class="clear"></div>
+        <div class="info">
+            <ul>
+                <li>
+                    <p class="info_title">使用ソフト</p>
+                    <div class="info_child">
+                        <img class="skill" src="../img/work/work3/skill1.png">
+                        <img class="skill" src="../img/work/work3/skill2.png">
+                        <img class="skill" src="../img/work/work3/skill3.png">
+                        <img class="skill" src="../img/work/work3/skill4.png">
+                        <img class="skill" src="../img/work/work3/skill5.png">
+                    </div>
+                </li>
+                <li>
+                    <p class="info_title">規模</p>
+                    <div class="info_child">
+                        <p>学外個人制作</p>
+                    </div>
+                </li>
+                <li>
+                    <p class="info_title">期間</p>
+                    <div class="info_child">
+                        <p>2016年11月 - 12月</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="updown" data-scroll><img src="../img/up.png"></a>
+    </div>
+
+    <footer>
+        <p>©︎Copyright 2016 Yoshiki Satodate</p>
+    </footer>
+</body>
+<script>
+    // スムーススクロールを起動する
+    smoothScroll.init({
+        speed: 1000,
+        updateURL: false,
+    });
+</script>
+
+</html>

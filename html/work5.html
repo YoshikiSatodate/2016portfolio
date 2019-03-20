@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="里館佳樹,ポートフォリオ,">
+
+    <title>Date's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/doctorreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/work.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            var back = $('#back')
+            back_offset = back.offset();
+            back_height = back.height();
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 730) {
+                    back.addClass('scroll');
+                } else {
+                    back.removeClass('scroll');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html#works">
+                <div id="back"></div>
+            </a>
+        </nav>
+            <div class="clear"></div>
+    </header>
+
+    <img class="heroimage" src="../img/work/work5.png">
+    <div class="wrap">
+        <h1>STUDENT</h1>
+        <p>主に学生が利用する学内ウェブサイトSTUDENTのBad UIを見つけ出し、リデザインをおこなった。<br>
+    ストーリーボードの作成や、サイトの構造化を行い、ユーザビリティを意識したデザインを学ぶことができた。</p>
+        <img src="../img/work/other/stu1.png">
+        <img src="../img/work/other/stu2.png">
+        <img src="../img/work/other/stu3.png">
+        <a href="#" class="updown" data-scroll><img src="../img/up.png"></a>
+    </div>
+
+    <footer>
+        <p>©︎Copyright 2016 Yoshiki Satodate</p>
+    </footer>
+</body>
+<script>
+    // スムーススクロールを起動する
+    smoothScroll.init({
+        speed: 1000,
+        updateURL: false,
+    });
+</script>
+
+</html>
